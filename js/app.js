@@ -1,7 +1,7 @@
 var httpServer = new HTTPServer(8080);
 
 httpServer.addEventListener('request', function(evt) {
-  evt.response.send("Awesome!")
+  evt.response.send("Hello world!")
 })
 
 window.addEventListener('DOMContentLoaded', function() { 
